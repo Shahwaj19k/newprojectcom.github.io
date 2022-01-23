@@ -1,0 +1,260 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* nav part one starts here  */
+
+.navpartone {
+  width: 100%;
+  background-color: #212934;
+}
+
+.navpartonemain {
+  max-width: 1150px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 15px 0px;
+}
+
+.navpartonemainleft {
+  float: left;
+}
+
+.navpartonemainleft ul li {
+  float: left;
+  list-style: none;
+  margin-right: 25px;
+}
+
+.navpartonemainleft ul li span {
+  margin-right: 10px;
+}
+
+.navpartonemainleft ul li a {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.navpartonemainright {
+  float: right;
+}
+
+.navpartonemainright ul li {
+  margin-left: 15px;
+}
+
+.navpartonemainright li:hover {
+  color: #59ab6e;
+}
+
+.navpartonemainleft li:hover {
+  color: #59ab6e;
+}
+
+.navpartonemainleft a:hover {
+  color: #59ab6e;
+}
+
+.sad {
+  display: flex;
+}
+
+/* boot css */
+.navbar {
+  height: 100px;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+.navbar-nav {
+  position: absolute;
+  right: 20px;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  margin-left: 20px;
+}
+/* boot css end */
+
+/* normal  */
+.mainsection {
+  max-width: 1000px;
+  border: 5px solid #59ab6e;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-top: 100px !important;
+  margin-bottom: 50px;
+}
+/* normal end */
+
+/* media  */
+
+@media only screen and (max-width: 951px) {
+  .imgdiv,
+  img {
+    height: 200px;
+    margin-top: 138px;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  .imgdiv,
+  img {
+    height: 100px;
+    margin-top: 138px;
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 545px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 378px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+/* media end */
+
+/* producttwo  */
+@media only screen and (max-width: 945px) {
+  .zay {
+    margin-left: 106px;
+    position: absolute;
+    bottom: -8vh;
+  }
+}
+@media only screen and (max-width: 662px) {
+  .zay {
+    position: absolute;
+    right: 81px;
+  }
+}
+@media only screen and (max-width: 358px) {
+  .zay {
+    position: absolute;
+    left: 109px;
+  }
+}
+/* producttwo end */
+
+/* productthree */
+@media only screen and (max-width: 945px) {
+  .mitti {
+    margin-left: 106px;
+    position: absolute;
+    bottom: -8vh;
+  }
+}
+@media only screen and (max-width: 706px) {
+  .mitti {
+    right: 50px;
+    position: absolute;
+    bottom: -8vh;
+  }
+}
+
+/* productthree end */
+
+/* productfour */
+@media only screen and (max-width: 950px) {
+  .mac {
+    position: relative;
+    bottom: 220px;
+  }
+}
+
+/* productfour end */
+
+/* productfive */
+@media only screen and (max-width: 779px) {
+  .window {
+    position: relative;
+    bottom: 220px;
+  }
+}
+/* productfive end */
+
+/* productsix */
+@media only screen and (max-width: 942px) {
+  .window1 {
+    position: relative;
+    bottom: 220px;
+  }
+}
+/* productsix end */
+/* productseventh */
+@media only screen and (max-width: 942px) {
+  .window2 {
+    position: relative;
+    bottom: 220px;
+  }
+}
+@media only screen and (max-width: 721px) {
+  .window2 {
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 443px) {
+  .window2 {
+    height: 100px;
+    position: relative;
+    right: 50px;
+  }
+}
+/* productseventh end */
+
+/* producteight */
+@media only screen and (max-width: 983px) {
+  .window3 {
+    position: relative;
+    bottom: 210px;
+  }
+}
+/* producteight end */
+
+/* productnine */
+@media only screen and (max-width: 796px) {
+  .window4 {
+    position: relative;
+    bottom: 210px;
+  }
+}
+/* productnine end */
+/* productten */
+@media only screen and (max-width: 946px) {
+  .window5 {
+    position: relative;
+    bottom: 210px;
+  }
+}
+/* productten end */
+/* producteleven */
+@media only screen and (max-width: 770px) {
+  .window6 {
+    position: relative;
+    bottom: 210px;
+  }
+}
+/* producteleven end */
+
+.an {
+  color: black;
+  padding-left: 18px;
+  font-size: 19px;
+}
